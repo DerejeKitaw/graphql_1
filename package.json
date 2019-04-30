@@ -1,0 +1,26 @@
+{
+  "name": "space_launch_stats",
+  "version": "1.0.0",
+  "description": "App that lists spaceX launch missions",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerejeKitaw/graphql_1.git"
+  },
+  "author": "Dereje Kitaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DerejeKitaw/graphql_1/issues"
+  },
+  "homepage": "https://github.com/DerejeKitaw/graphql_1#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1"
+  }
+}
